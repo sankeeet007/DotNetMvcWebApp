@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\views\\dashboard\\updateproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\views\\dashboard\\updateproductform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|c:\\users\\solan\\desktop\\.net\\mvcwebapp\\mvcwebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98DCCA61-3848-967E-E422-1DEDB4CB8569}|MVCwebApp\\MVCwebApp.csproj|solutionrelative:mvcwebapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCwebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\appsettings.json",
+              "RelativeToolTip": "MVCwebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-22T18:04:57.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MVCwebApp\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MVCwebApp\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T18:53:35.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "MVCwebApp\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "MVCwebApp\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T06:48:09.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "MVCwebApp\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Dto\\UserDto.cs",
+              "RelativeToolTip": "MVCwebApp\\Dto\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T13:58:45.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVCwebApp\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "MVCwebApp\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T06:49:52.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MVCwebApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MVCwebApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T05:47:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MVCwebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Program.cs",
+              "RelativeToolTip": "MVCwebApp\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T17:35:40.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Dashboard\\UpdateProductForm.cshtml",
+              "RelativeDocumentMoniker": "MVCwebApp\\Views\\Dashboard\\UpdateProductForm.cshtml",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Views\\Dashboard\\UpdateProductForm.cshtml",
+              "RelativeToolTip": "MVCwebApp\\Views\\Dashboard\\UpdateProductForm.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T10:22:10.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MVCwebApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\solan\\Desktop\\.Net\\MVCwebApp\\MVCwebApp\\Models\\User.cs",
+              "RelativeToolTip": "MVCwebApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T17:51:24.762Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

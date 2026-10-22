@@ -1,0 +1,29 @@
+﻿@using MVCwebApp.Dto
+@model UserDto
+
+<div class="text-center text-danger fw-bold">@ViewBag.ErrorMessage</div>
+
+<form class="p-4 border rounded shadow-sm bg-white" style="max-width: 400px; margin: 0 auto;" asp-action="CreateUser">
+  <h2 class="text-center mb-4">Register</h2>
+
+  <div class="mb-3">
+    <label for="reg-username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="reg-username" name="username" asp-for="Username" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="reg-email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="reg-email" name="email" asp-for="Email" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="reg-password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="reg-password" name="password" asp-for="Password" required>
+  </div>
+
+  <input type="submit" class="btn btn-success w-100 mt-2" value="Submit">
+
+</form>
+<div class="text-center">
+    Already an existing User?<a asp-action="Login">Login here...</a>
+</div>

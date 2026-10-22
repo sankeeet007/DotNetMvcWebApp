@@ -1,0 +1,57 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MVCwebApp.Data;
+using MVCwebApp.Dto;
+using MVCwebApp.Models;
+
+namespace MVCwebApp.Controllers
+{
+    // new method for DI is using primary cntor ⬇️⬇️⬇️⬇️
+    public class AuthController(AppDbContext context) : Controller      // MVC cntroler:- Controller is inherited 
+                                                                        // API cntroler:- ControllerBase is inherited
+    {
+        //private readonly AppDbContext context;
+        //public AuthController(AppDbContext context)       // this was used previouly in .net 7,8,9 for DependencyInjection
+        //{
+        //    this.context = context;
+        //}
+
+        public IActionResult Login()
+        {
+            ViewBag.SuccessMessage = TempData["SuccessMessage"];    // Controller -> View
+            return View();
+        }
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> CreateUser(UserDto dto)
+        {
+            if(dto == null || string.IsNullOrEmpty(dto.Username) || string.IsNullOrEmpty(dto.Email) || string.IsNullOrEmpty(dto.Password))
+            {
+                ViewBag.ErrorMessage("Kindly Fill All the details!!!");
+                return View("Register");
+            }
+            var existingUser = await context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            if(existingUser == null)
+            {
+                var user = new User
+                {
+                    Username = dto.Username,
+                    Password = dto.Password,
+                    Email = dto.Email
+                };
+                context.Users.Add(user);
+                await context.SaveChangesAsync();
+            }
+            else
+            {
+                ViewBag.ErrorMessage = "Email already exists.";     //Controller -> View
+                return RedirectToAction("Register");
+            }
+            TempData["SuccessMessage"] = "User created successfully. Please log in.";
+            return RedirectToAction("Login");
+        }
+    }
+}

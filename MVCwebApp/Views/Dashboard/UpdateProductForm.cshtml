@@ -1,0 +1,49 @@
+﻿@using MVCwebApp.Dto
+@model ProductDto
+
+<div class="container my-5" style="max-width: 600px;">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-primary text-white py-3">
+                <h4 class="mb-0 fw-bold">Add New Product</h4>
+            </div>
+            <div class="card-body p-4">
+<div>@ViewBag.ErrorMessage</div>
+                <form asp-action="UpdateProduct">
+                    
+                    <!-- Product Name -->
+                    <div class="mb-3">
+                        <label for="productName" class="form-label fw-semibold">Product Name</label>
+                        <input type="text" class="form-control" id="productName" name="productName" asp-for="ProductName" placeholder="e.g. Wireless Headphones" required>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="mb-3">
+                        <label for="description" class="form-label fw-semibold">Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="3" asp-for="Description" placeholder="Enter product details..." required></textarea>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="mb-3">
+                        <label for="price" class="form-label fw-semibold">Price ($)</label>
+                        <input type="number" step="0.01" class="form-control" id="price" name="price" asp-for="Price" placeholder="99.99" required>
+                    </div>
+
+                    <!-- Color -->
+                    <div class="mb-3">
+                        <label for="color" class="form-label fw-semibold">Color</label>
+                        <input type="text" class="form-control" id="color" name="color" asp-for="Color" placeholder="e.g. Matte Black" required>
+                    </div>
+                    <input type="hidden" name="id" asp-for="Id"/>
+                    <!-- Action Buttons -->
+                    <div class="d-flex justify-content-between mt-4">
+                        <a href="#" class="btn btn-outline-secondary">Back to Dashboard</a>
+                        <button type="submit" class="btn btn-success px-4">Save Product</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

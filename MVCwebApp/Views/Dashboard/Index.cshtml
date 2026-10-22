@@ -1,0 +1,58 @@
+﻿@using MVCwebApp.Dto
+@model List<ProductDto>
+
+<div class="container my-5">
+    <!-- Header Block -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <!-- Top Left Corner Button (Converted to an ASP.NET Core Tag Helper link/button) -->
+        <a asp-action="ProductForm" class="btn btn-primary d-flex align-items-center gap-2 text-decoration-none">
+            <svg xmlns="http://www.w3.org" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+            </svg>
+            Add Product
+        </a>
+        <h2 class="h4 text-secondary m-0">Product Management Dashboard</h2>
+    </div>
+
+    <!-- Responsive Table Container -->
+    <div class="card shadow-sm">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" class="ps-4">Product Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Color</th>
+                        <th scope="col" class="text-center pe-4" style="width: 180px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if(Model.Count > 0)
+                    {
+                        foreach(var product in Model)
+                        {
+                        <tr>
+                        <td class="fw-semibold ps-4">@product.ProductName</td>
+                        <td class="text-muted">@product.Description</td>
+                        <td>$@product.Price</td>
+                        <td><span class="badge bg-dark">@product.Color</span></td>
+                        <td class="text-center pe-4">
+                            <div class="btn-group btn-group-sm" role="group">
+                                        <a asp-action="UpdateProductForm" asp-route-id="@product.Id" class="btn btn-outline-secondary">Edit</a>
+                                <a asp-action="DeleteProduct" asp-route-productid="@product.Id" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                        }   
+                    }
+                    else
+                    {
+                        <tr>No Products are Available....</tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
